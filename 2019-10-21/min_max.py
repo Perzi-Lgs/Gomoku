@@ -18,7 +18,7 @@ def find_coordinate(tab, player, depth):
             score_2_coor[(x, y)] = table.getScore((x, y))
             table.undo()
     #print(score_2_coor)
-    return (max(score_2_coor, key=score_2_coor.get)
+    return (max(score_2_coor, key=score_2_coor.get))
 
 #go_table = [[0] * 19 for i in range(19)]
 #go_table[4][5] = 'A'

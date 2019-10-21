@@ -35,8 +35,8 @@ class Interpretor(object):
             self.size = int(self.message[1])
             self.table = [[0 for i in range(self.size)] for j in range(self.size)]
             print("OK")
-        except IndexError:
-            print("Error, start message uncorrect")
+        except:
+            print("KO")
     
     def my_turn(self):
         try:

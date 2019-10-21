@@ -13,7 +13,7 @@ NAME		=	pbrain-gomoku-ai
 
 RM		=	rm -rf
 
-SRC		=	main.py
+SRC		=	pbrain-test.py
 
 all:	$(NAME)
 
